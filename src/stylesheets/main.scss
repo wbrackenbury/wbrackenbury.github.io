@@ -137,7 +137,7 @@ h3 {
   background-position-x: -700px;
   background-position-y: -300px;
   background-size: 1200px 1200px;
-  color: $title-blue;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   font-family: Roboto-thin, sans-serif;
@@ -147,6 +147,8 @@ h3 {
   padding: 64px;
   position: relative;
   width: 320px;
+  border-right-style: solid;
+  border-right-color: black;
 }
 
 .title {
@@ -160,7 +162,7 @@ h3 {
 }
 
 .social-links a {
-  color: $title-blue;
+  color: #ffffff;
   font-size: 24px;
   text-decoration: none;
   text-transform: uppercase;
@@ -172,7 +174,7 @@ h3 {
   }
 
   &:visited {
-    color: $title-blue;
+    color: #ffffff;
   }
 
   &:last-child::after {

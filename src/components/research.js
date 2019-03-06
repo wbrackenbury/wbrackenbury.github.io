@@ -32,10 +32,6 @@ class ResearchPage extends React.Component {
       <div className="page research-page">
         <div className="publication-section-headline">PUBLICATIONS</div>
         {PUBLICATIONS.map(makePubBloc)}
-        <div className="publication-section-headline">PRESENTATIONS & TALKS</div>
-        {PRESENTATIONS.map(makePubBloc)}
-        <div className="publication-section-headline">BLOG POSTS</div>
-        {BLOG_POSTS.map(makePubBloc)}
         <div className="footer" />
       </div>
     );

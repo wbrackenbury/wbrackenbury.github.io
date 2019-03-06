@@ -17,8 +17,8 @@ function getRoute(location) {
   if (location === 'publications') {
     return <ResearchPage />;
   }
-  if (location === 'projects') {
-    return <ProjectsPage />;
+  if (location === 'research') {
+    return <ResearchPage />;
   }
   return <AboutPage />;
 }

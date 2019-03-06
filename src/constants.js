@@ -23,75 +23,31 @@ export const SKILL_LIST = [
 
 export const PUBLICATIONS = [
   {
-    link: '../assets/McNutt_Kindlmann_2018.pdf',
-    title: 'Linting for Visualization: Towards a Practical Automated Visualization Guidance System',
-    authors: 'Andrew McNutt, Gordon Kindlmann',
-    journal: 'VisGuides (IEEE Workshop). 2018'
+    link: '../assets/chi19-ifttt-cameraready.pdf',
+    title: '(To appear) How Users Interpret Bugs in Trigger-Action Programming',
+    authors: 'Will Brackenbury, Abhimanyu Deora, Jillian Ritchey, Jason Vallee, Weijia He, Guan Wang, Michael L. Littman, Blase Ur',
+    journal: 'CHI 2019'
   },
   {
-    link: 'https://link.springer.com/protocol/10.1007/978-1-4939-7724-6_14',
-    title: 'Data Mining and Computational Modeling of High-Throughput Screening Datasets',
-    authors: 'Sean Ekins, Alex M Clark, Krishna Dole, Kellan Gregory, Andrew M Mcnutt, Anna Coulon Spektor, Charlie Weatherall, Nadia K Litterman, Barry A Bunin',
-    journal: 'Reporter Gene Assays. 2018'
+    link: '../assets/hilda18.pdf',
+    title: 'Draining the Data Swamp: A Similarity-based Approach',
+    authors: 'Will Brackenbury, Rui Liu, Mainack Mondal, Aaron J. Elmore, Blase Ur, Kyle Chard, Michael J. Franklin',
+    journal: 'HILDA 2018'
   },
   {
-    link: 'https://arxiv.org/abs/1501.07537',
-    title: 'The Schrodinger-Newton System with Self-field Coupling',
-    authors: 'Joel Franklin, Youdan Guo, Andrew McNutt, and Allison Morgan',
-    journal: 'Classical and Quantum Gravity. 2015'
+    link: '../assets/p2038-shang.pdf',
+    title: 'CYADB: A Database that Covers Your Ask',
+    authors: 'Zechao Shang, Will Brackenbury, Aaron J. Elmore, Michael J. Franklin',
+    journal: 'VLDB (Demo) 2018'
   },
   {
-    link: 'http://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00143',
-    title: 'Open source Bayesian models. 1. Application to ADME/Tox and drug discovery datasets.',
-    authors: 'Alex M. Clark, Krishna Dole, Anna Coulon-Spektor, Andrew McNutt, George Grass, Joel S. Freundlich, Robert C. Reynolds, and Sean Ekins',
-    journal: 'Journal of chemical information and modeling. 2015'
-  },
-  {
-    link: '../assets/thesis.pdf',
-    title: 'Nonequivalent Lagrangian Mechanics',
-    authors: 'Andrew McNutt (Advised by Nelia Mann)',
-    journal: 'Undergraduate thesis. Reed College. 2014.'
+    link: '../assets/p2098-kesslerfaulkner.pdf',
+    title: 'k-Regret Queries with Nonlinear Utilities',
+    authors: 'Taylor Kessler Faulkner, Will Brackenbury*, Ashwin Lall (*co-first authors)',
+    journal: 'VLDB 2015'
   }
 ];
 
-export const PRESENTATIONS = [
-  {
-    title: 'Linting for Visualization: Towards a Practical Automated Visualization Guidance System',
-    link: '../assets/vis-lint-talk.pdf',
-    journal: 'VisGuides 2018. October 22, 2018'
-  },
-  {
-    title: 'Design Patterns For Data Visualization in React',
-    link: 'http://tinyurl.com/reactvisdesignpatterns',
-    journal: 'React Chicago. August 29, 2018'
-  },
-  {
-    link: '../assets/nlm-talk.pdf',
-    title: 'Nonequivalent Lagrangian Mechanics',
-    journal: 'Reed Physics Seminar. April 8, 2014'
-  },
-  {
-    link: '../assets/QGravPresentation.pdf',
-    title: 'The Schrodinger-Newton System with Self-field Coupling',
-    authors: 'Varchas Gopalaswamy, Andrew McNutt, Allie Morgan, Carl Proepper.',
-    journal: 'Reed Physics Seminar. September 18, 2013'
-  }
-];
-
-export const BLOG_POSTS = [
-  {
-    title: 'A Brief Saga Concerning the Making of a Tarot Deck About the American Highway System',
-    subtitle: 'A little essay about making',
-    date: 'Personal Blog. December 10, 2018',
-    link: 'https://medium.com/@mcnutt/a-brief-saga-concerning-the-making-of-a-tarot-deck-about-the-american-highway-system-2eaebf3320c8'
-  },
-  {
-    title: 'Advanced Visualization with react-vis',
-    subtitle: 'Using Voronois, single pass rendering, and canvas components for amazing user experiences',
-    date: 'Towards Data Science. May 21, 2018',
-    link: 'https://towardsdatascience.com/advanced-visualization-with-react-vis-efc5c6667b4'
-  }
-];
 
 export const PROJECTS = [
   {

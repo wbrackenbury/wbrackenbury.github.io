@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 
 const links = [
   {name: 'ABOUT', href: '#/about'},
-  {name: 'PROJECTS', href: '#/projects'},
   {name: 'RESEARCH', href: '#/research'}
 ];
 const REGULAR_LINK_CLASS = 'internal-link';
