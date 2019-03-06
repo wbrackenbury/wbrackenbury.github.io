@@ -96,11 +96,7 @@ h3 {
   min-height: 200px;
 
   .profpic {
-    background: url('https://s3-us-west-1.amazonaws.com/mcnutt-static-images/profpic.jpeg');
-    background-size: 150px 150px;
-    height: 150px;
-    margin-top: 30px;
-    width: 150px;
+    border-radius: 50%;
   }
 
   .project-image {
