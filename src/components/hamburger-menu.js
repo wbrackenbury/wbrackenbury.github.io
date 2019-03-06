@@ -17,7 +17,7 @@ class HamburgerMenu extends React.Component {
         <div
           onClick={() => this.setState({open: !open})}
           className="hamburger-title">
-          <div className="hamburger-name">ANDREW MCNUTT</div>
+          <div className="hamburger-name">WILL BRACKENBURY</div>
           <div className="hamburger-spinner">
             <svg width="25px" height="21px" >
               <rect x="0" y="0" width="25" height="3" />

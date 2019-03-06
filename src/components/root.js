@@ -8,15 +8,13 @@ import ProjectsPage from './projects';
 import ResearchPage from './research';
 
 export const LINKS = [
-  {title: 'github', href: 'https://github.com/mcnuttandrew/'},
-  // {title: 'twitter', href: 'https://twitter.com/_mcnutt_'},
-  {title: 'linkedin', href: 'https://www.linkedin.com/in/mcnuttandrew/'},
-  {title: 'CV', href: '../assets/resume.pdf'}
+  {title: 'github', href: 'https://github.com/wbrackenbury'},
+  {title: 'linkedin', href: 'https://www.linkedin.com/in/will-brackenbury-336581a5/'},
 ];
 
 // need to be fancy, in order to deal with routing
 function getRoute(location) {
-  if (location === 'research') {
+  if (location === 'publications') {
     return <ResearchPage />;
   }
   if (location === 'projects') {
@@ -36,8 +34,8 @@ class RootApp extends React.Component {
           <LinkMenu />
         </div>
         <div className="left-panel">
-          <div className="title">ANDREW MCNUTT</div>
-          <div className="subtitle">VISUALIZATION</div>
+          <div className="title">WILL BRACKENBURY</div>
+            <div><h2> Chicago, IL</h2></div>
           <div className="social-links">
             {LINKS.map(link => (
               <a className="social-link" key={link.title} href={link.href}>

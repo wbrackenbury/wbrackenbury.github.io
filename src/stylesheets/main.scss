@@ -60,6 +60,8 @@ h3 {
 }
 
 .link-menu {
+
+  background: #3AE6E8;
   font-family: Roboto-Light, sans-serif;
   font-size: 24px;
 
@@ -124,7 +126,7 @@ h3 {
 
 // LEFT PANEL STYLING
 .left-panel {
-  background: url('https://s3-us-west-1.amazonaws.com/mcnutt-static-images/left-panel-background.jpg');
+  background: #4DCBFF;
   background-color: $image-background-black;
   background-position-x: -700px;
   background-position-y: -300px;
