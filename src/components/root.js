@@ -34,8 +34,10 @@ class RootApp extends React.Component {
           <LinkMenu />
         </div>
             <div className="left-panel">
+	    <div className="profpic-wrapper">
 	    <img className="profpic" src='../../assets/profile_picture.jpg'/>
-            <div><h1>Will Brackenbury</h1></div>
+	    </div>
+	    <div><h1>Will Brackenbury</h1></div>
             <div><h2> Chicago, IL</h2></div>
           <div className="social-links">
             {LINKS.map(link => (
