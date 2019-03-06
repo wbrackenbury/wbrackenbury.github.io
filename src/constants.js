@@ -88,12 +88,6 @@ export const BLOG_POSTS = [
 ];
 
 export const PROJECTS = [
-  // {
-  //   title: 'Chaotic Circuit',
-  //   imgLink: 'https://s3-us-west-1.amazonaws.com/mcnutt-static-images/chaotic-image.png',
-  //   link: '../assets/Chaotic_circuit.pdf',
-  //   text: 'In culminating effort of my junior year at Reed I built a third order Chaotic circuit as an independent project. This shows some of the best data visualization work I had done at that point, particularlly the combination phase and signal metering small multiples diagram.'
-  // },
   {
     title: 'Readability As A Service',
     dates: 'November 2018',
@@ -193,34 +187,4 @@ export const PROJECTS = [
     section: 'tech'
   }
 
-  // {
-  //   title: 'N-Body Simulator',
-  //   link: 'https://mcnuttandrew.github.io/n-body-simulator/',
-  //   sourceLink: 'https://github.com/mcnuttandrew/N-Body-Simulator',
-  //   imgLink: 'https://s3-us-west-1.amazonaws.com/mcnutt-static-images/n-body-image.png',
-  //   text: 'A low N gravitional interaction simulator built in processing.'
-  // },
-  // {
-  //   title: 'Asteroids',
-  //   imgLink: 'https://s3-us-west-1.amazonaws.com/mcnutt-static-images/asteroids-image.png',
-  //   link: 'https://mcnuttandrew.github.io/asteroids/',
-  //   sourceLink: 'https://github.com/mcnuttandrew/Asteroids',
-  //   text: 'A reimaging of the classic arcade game. Technologies included Javascipt, HTML5 Canvas, and jQuery'
-  // }
-  // {
-  //   title: 'Teacup',
-  //   liveLink: 'http://tea-cup.org/',
-  //   sourceLink: 'https://github.com/mcnuttandrew/Project-Teacup',
-  //   text: 'A microblogging platform for viewing the collective unconscious. Single page Backbone app based on RESTful practices. Features data visualizations including trending topics and user population. Seed data was generated using a variety of large scale data scrapes and data cleaning techniques. Technologies included a Rails API, Backbone.js, jQuery, Nokogiri, and D3.'
-  // }
-  // {
-  //   title: 'Slim Record',
-  //   sourceLink: 'https://github.com/mcnuttandrew/Active-Record-Lite',
-  //   text: 'An Object Relational Mapper that rebuilds much of the functionality of active record. The point of the project was to get a better comprehension of the underlying mechanisms that we so often take for granted in Rails'
-  // },
-  // {
-  //   title: 'Railsito',
-  //   sourceLink: 'https://github.com/mcnuttandrew/railsito',
-  //   text: 'An Object Relational Mapper that rebuilds much of the functionality of active record. The point of the project was to get a better comprehension of the underlying mechanisms that we so often take for granted in Rails'
-  // }
 ];
