@@ -30,7 +30,7 @@ class RootApp extends React.Component {
       <div className={`${locationSplit[locationSplit.length - 1]} root-wrapper`}>
         <HamburgerMenu />
         <div className="top-links">
-          <div className="top-link-title">ANDREW MCNUTT</div>
+          <div className="top-link-title">WILL BRACKENBURY</div>
           <LinkMenu />
         </div>
         <div className="left-panel">

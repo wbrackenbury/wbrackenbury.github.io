@@ -25,14 +25,16 @@
     "request": "^2.81.0",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
-    "webpack": "^2.2.0-rc.3",
+    "webpack": "^2.7.0",
     "webpack-dev-server": "^2.2.0-rc.0"
   },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.1.2",
-    "react-vis": "^1.10.4"
+    "react-vis": "^1.10.4",
+    "webpack-cli": "^3.2.3",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "webpack-dev-server --progress --hot --port 3001 --open",
