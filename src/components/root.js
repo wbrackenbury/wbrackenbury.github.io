@@ -34,7 +34,6 @@ class RootApp extends React.Component {
           <LinkMenu />
         </div>
         <div className="left-panel">
-	    <img src='../assets/profile_picture.jpg' style="border-radius: 50%;;"/>
             <div><h3>Will Brackenbury</h3></div>
             <div><h2> Chicago, IL</h2></div>
           <div className="social-links">
