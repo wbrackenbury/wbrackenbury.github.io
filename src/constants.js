@@ -8,16 +8,16 @@ export const INTERESTS = 'If you want to start a conversation, try these: ';
 export const SKILLS = 'Aside from my technical skills, I am capable in the following: ';
 
 export const TOPICS = [
-    {item: 'Storefront theatre in Chicago'},
-    {item: 'Mathematics (Topology, Category Theory)'},
-    {item: 'Competitive Chess'},
-    {item: 'Comedic writing'}
+    'Storefront theatre in Chicago',
+    'Mathematics (Topology, Category Theory)',
+    'Competitive Chess',
+    'Comedic writing'
 ]
 
 export const SKILL_LIST = [
-    {item: 'Strong writing skills'},
-    {item: 'Strong presentation skills'},
-    {item: 'Italian (beginner / intermediate)'}
+    'Strong writing skills',
+    'Strong presentation skills',
+    'Italian (beginner / intermediate)'
 ]
 
 
