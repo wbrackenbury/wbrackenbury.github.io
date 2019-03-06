@@ -1,19 +1,25 @@
 /* eslint-disable max-len */
-export const ABOUT = 'I am a PhD student in Computer Science at the University of Chicago. In the very near past I worked as a Data Visualization Engineer for a variety of companies in San Francisco, where I made visual analytic software. I got a formal education in physics from Reed College in Portland, and an informal education in web development from App Academy in San Francisco. I really like deserts, buffalo, and motorcycles. Edward Tufte once made fun of me in a hotel in Seattle.';
+export const ABOUT = 'I\'m a PhD student in Computer Science at the University of Chicago, working at the intersection between Databases and Human-Computer Interaction. I\'m broadly interested in problems solving business challenges via human-in-the-loop systems.';
 
-export const skills = [{
-  title: 'PERSONAL',
-  content: 'information design, physics, arts'
-}, {
-  title: 'WEB DEV',
-  content: 'd3, react, flux/redux, node, backbone, processing, jquery, ruby, ruby on rails, python, flask, sketch'
-}, {
-  title: 'SCI-COM',
-  content: 'mathematica, grid mathematica, numpy, pandaz'
-}];
+export const TECHNOLOGIES = 'I\'m most familiar with Python and C++, but I have varying amounts of experience in C, Java, Scala, and Go. Additionally, I have experience with Apache webservers, Docker containers (+ docker-compose), Databases and SQL (PostgreSQL, MySQL, MS SQL Server), web programming frameworks (Flask, Play) and git/svn/mercurial.';
 
-export const TECHNOLOGIES = 'I\'m familiar with a wide variety of technologies, including (but not limited to): d3, react, flux/redux, node, backbone, processing, jquery, ruby, ruby on rails, python, flask, sketch, mathematica, grid mathematica, numpy, pandaz, git. Here is a glib set of radar charts about skills I possess:';
-export const INTERESTS = 'I\'m passionite about info-vis, classical mechanics, databases, WebGL, testing, and pretty much anything javascript.';
+export const INTERESTS = 'If you want to start a conversation, try these: ';
+
+export const SKILLS = 'Aside from my technical skills, I am capable in the following: ';
+
+export const TOPICS = [
+    {item: 'Storefront theatre in Chicago'},
+    {item: 'Mathematics (Topology, Category Theory)'},
+    {item: 'Competitive Chess'},
+    {item: 'Comedic writing'}
+]
+
+export const SKILL_LIST = [
+    {item: 'Strong writing skills'},
+    {item: 'Strong presentation skills'},
+    {item: 'Italian (beginner / intermediate)'}
+]
+
 
 export const PUBLICATIONS = [
   {
