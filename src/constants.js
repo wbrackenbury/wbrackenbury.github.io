@@ -1,15 +1,15 @@
 /* eslint-disable max-len */
 export const ABOUT = 'I\'m a PhD student in Computer Science at the University of Chicago, working at the intersection between Databases and Human-Computer Interaction. I\'m broadly interested in problems solving business challenges via human-in-the-loop systems.';
 
-export const TECHNOLOGIES = 'I\'m most familiar with Python and C++, but I have varying amounts of experience in C, Java, Scala, and Go. Additionally, I have experience with Apache webservers, Docker containers (+ docker-compose), Databases and SQL (PostgreSQL, MySQL, MS SQL Server), web programming frameworks (Flask, Play) and git/svn/mercurial.';
+export const TECHNOLOGIES = 'I\'m most familiar with Python and C++. Additionally, I have experience with machine learning libraries (Keras, sklearn, pandas, numpy), databases and SQL (PostgreSQL, MS SQL Server), and web programming frameworks (Flask, Play).';
 
 export const INTERESTS = 'If you want to start a conversation, try these: ';
 
 export const SKILLS = 'Aside from my technical skills, I am capable in the following: ';
 
 export const TOPICS = [
+    'Mathematics (Machine Learning, Topology)',
     'Storefront theatre in Chicago',
-    'Mathematics (Topology, Category Theory)',
     'Competitive Chess',
     'Comedic writing'
 ]
@@ -24,7 +24,7 @@ export const SKILL_LIST = [
 export const PUBLICATIONS = [
   {
     link: '../assets/chi19-ifttt-cameraready.pdf',
-    title: '(To appear) How Users Interpret Bugs in Trigger-Action Programming',
+    title: 'How Users Interpret Bugs in Trigger-Action Programming',
     authors: 'Will Brackenbury, Abhimanyu Deora, Jillian Ritchey, Jason Vallee, Weijia He, Guan Wang, Michael L. Littman, Blase Ur',
     journal: 'CHI 2019'
   },
