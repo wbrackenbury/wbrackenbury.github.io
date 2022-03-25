@@ -3,22 +3,6 @@ export const ABOUT = 'I\'m a PhD candidate in Computer Science at the University
 
 export const INTERESTS = 'If you want to start a conversation, try these: ';
 
-export const SKILLS = 'Aside from my technical skills, I am capable in the following: ';
-
-export const TOPICS = [
-    'Mathematics (Machine Learning, Topology)',
-    'Storefront theatre in Chicago',
-    'Competitive Chess',
-    'Comedic writing'
-]
-
-export const SKILL_LIST = [
-    'Strong writing skills',
-    'Strong presentation skills',
-    'Italian (beginner / intermediate)'
-]
-
-
 export const PUBLICATIONS = [
   {
     link: '../assets/kondocloud_final.pdf',
