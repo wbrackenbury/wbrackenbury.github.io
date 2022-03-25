@@ -1,7 +1,9 @@
 /* eslint-disable max-len */
-export const ABOUT = 'I\'m a PhD student in Computer Science at the University of Chicago, working at the intersection between Databases and Human-Computer Interaction. I\'m broadly interested in problems solving business challenges via human-in-the-loop systems.';
+export const ABOUT = 'I\'m a PhD candidate in Computer Science at the University of Chicago, primarily working on semi-automated tools that help people manage their personal cloud storage (ex. Google Drive). I also currently work on human-computer interaction problems for machine learning.';
 
-export const TECHNOLOGIES = 'I\'m most familiar with Python and C++. Additionally, I have experience with machine learning libraries (Keras, sklearn, pandas, numpy), databases and SQL (PostgreSQL, MS SQL Server), and web programming frameworks (Flask, Play).';
+// export const TECHNOLOGIES = 'I\'m most familiar with Python. Additionally, I have experience with machine learning libraries (Keras, sklearn, pandas, numpy), databases and SQL (PostgreSQL, MS SQL Server), and web programming frameworks (Flask, Play).';
+
+// export const TECHNOLOGIES = 'I\'m comfortable with:'
 
 export const INTERESTS = 'If you want to start a conversation, try these: ';
 
@@ -22,6 +24,20 @@ export const SKILL_LIST = [
 
 
 export const PUBLICATIONS = [
+  {
+    link: '../assets/kondocloud_final.pdf',
+    title: 'KondoCloud: Improving Information Management in Cloud Storage via Recommendations Based on File Similarity',
+    authors: 'Will Brackenbury, Andrew M. McNutt, Kyle Chard, Aaron J. Elmore, Blase Ur',
+    journal: 'UIST 2021'
+  },
+
+  {
+    link: '../assets/flock_final.pdf',
+    title: 'Files of a Feather Flock Together? Measuring and Modeling How Users Perceive File Similarity in Cloud Storage',
+    authors: 'Will Brackenbury, Galen Harrison, Kyle Chard, Aaron J. Elmore, Blase Ur',
+    journal: 'SIGIR 2021'
+  },
+
   {
     link: '../assets/chi19-ifttt-cameraready.pdf',
     title: 'How Users Interpret Bugs in Trigger-Action Programming',
