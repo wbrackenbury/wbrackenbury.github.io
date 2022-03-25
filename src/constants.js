@@ -1,10 +1,6 @@
 /* eslint-disable max-len */
 export const ABOUT = 'I\'m a PhD candidate in Computer Science at the University of Chicago, primarily working on semi-automated tools that help people manage their personal cloud storage (ex. Google Drive). I also currently work on human-computer interaction problems for machine learning.';
 
-// export const TECHNOLOGIES = 'I\'m most familiar with Python. Additionally, I have experience with machine learning libraries (Keras, sklearn, pandas, numpy), databases and SQL (PostgreSQL, MS SQL Server), and web programming frameworks (Flask, Play).';
-
-// export const TECHNOLOGIES = 'I\'m comfortable with:'
-
 export const INTERESTS = 'If you want to start a conversation, try these: ';
 
 export const SKILLS = 'Aside from my technical skills, I am capable in the following: ';
