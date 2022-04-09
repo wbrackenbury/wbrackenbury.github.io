@@ -4,10 +4,10 @@ import {ABOUT, TECHNOLOGIES, INTERESTS, SKILLS, TOPICS, SKILL_LIST} from '../con
 
 class AboutPage extends React.Component {
     render() {
-	const skills = SKILL_LIST.map((skill) =>
-				  <li>{skill}</li>);
-	const topics = TOPICS.map((topic) =>
-				  <li>{topic}</li>);
+	// const skills = SKILL_LIST.map((skill) =>
+	// 			  <li>{skill}</li>);
+	// const topics = TOPICS.map((topic) =>
+	// 			  <li>{topic}</li>);
 
 	return (
 		<div className="page about-page">
