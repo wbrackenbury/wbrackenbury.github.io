@@ -39,7 +39,7 @@ export const PUBLICATIONS = [
   {
     link: '../assets/p2098-kesslerfaulkner.pdf',
     title: 'k-Regret Queries with Nonlinear Utilities',
-    authors: 'Taylor Kessler Faulkner, Will Brackenbury*, Ashwin Lall (*co-first authors)',
+    authors: 'Taylor Kessler Faulkner*, Will Brackenbury*, Ashwin Lall (*co-first authors)',
     journal: 'VLDB 2015'
   }
 ];
