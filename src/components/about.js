@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {ABOUT, TECHNOLOGIES, INTERESTS, SKILLS, TOPICS, SKILL_LIST} from '../constants';
+import {ABOUT, TECHNOLOGIES, INTERESTS, SKILLS, TOPICS, SKILL_LIST, NEWS} from '../constants';
 
 class AboutPage extends React.Component {
     render() {
@@ -9,9 +9,15 @@ class AboutPage extends React.Component {
 	// const topics = TOPICS.map((topic) =>
 	// 			  <li>{topic}</li>);
 
+	const news = NEWS.map((n) =>
+	     			            <li>{n}</li>);
+
+
 	return (
 		<div className="page about-page">
-		<div className="text-block">{ABOUT}</div>
+		  <div className="text-block">{ABOUT}</div>
+      <h3>News</h3>
+      <div className="text-block">{news}</div>
 		<div className="footer" />
 		</div>
 	);

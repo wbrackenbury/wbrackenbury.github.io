@@ -3,7 +3,20 @@ export const ABOUT = 'I\'m a PhD candidate in Computer Science at the University
 
 export const INTERESTS = 'If you want to start a conversation, try these: ';
 
+export const NEWS = [
+  'My dissertation defense is scheduled for April 27th--an exciting end to a long journey',
+  'Our paper on instructions for annotator rationales was accepted to NAACL 2022! Congratulations to Jamar Sullivan on his first-ever first-author paper',
+  'I presented our paper on KondoCloud, a tool for enhanced file management recommendations, at UIST 2021. Thank you to the conference organizers and attendees for fostering wonderful discussion'
+]
+
 export const PUBLICATIONS = [
+
+  {
+    title: 'Explaining Why: How Instructions and User Interfaces Impact Annotator Rationales When Labeling Text Data',
+    authors: 'Jamar L. Sullivan Jr., Will Brackenbury, Andrew McNutt, Kevin Bryson, Kwam Byll, Yuxin Chen, Michael L. Littman, Chenhao Tan, Blase Ur',
+    journal: 'NAACL 2022'
+  },
+
   {
     link: '../assets/kondocloud_final.pdf',
     title: 'KondoCloud: Improving Information Management in Cloud Storage via Recommendations Based on File Similarity',
