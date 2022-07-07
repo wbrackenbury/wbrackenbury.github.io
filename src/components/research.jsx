@@ -1,22 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import {PUBLICATIONS, PRESENTATIONS, BLOG_POSTS} from '../constants';
+import { PUBLICATIONS } from "../constants";
 
 function makePubBloc(pub) {
-  const {
-    title,
-    link,
-    authors,
-    journal,
-    date,
-    subtitle
-  } = pub;
+  const { title, link, authors, journal, date, subtitle } = pub;
   return (
     <div className="publication-block" key={title}>
-      {link ?
-        <a href={link} className="publication-title">{title}</a> :
+      {link ? (
+        <a href={link} className="publication-title">
+          {title}
+        </a>
+      ) : (
         <div className="publication-title">{title}</div>
-      }
+      )}
       {authors && <div className="publication-authors">{authors}</div>}
       {journal && <div className="publication-journal">{journal}</div>}
       {subtitle && <div className="publication-blogs">{subtitle}</div>}
@@ -27,7 +23,6 @@ function makePubBloc(pub) {
 
 class ResearchPage extends React.Component {
   render() {
-
     return (
       <div className="page research-page">
         <div className="publication-section-headline">PUBLICATIONS</div>
@@ -37,5 +32,5 @@ class ResearchPage extends React.Component {
     );
   }
 }
-ResearchPage.displayName = 'ResearchPage';
+ResearchPage.displayName = "ResearchPage";
 export default ResearchPage;
