@@ -1,9 +1,10 @@
 /* eslint-disable max-len */
-export const ABOUT = 'I\'m a PhD candidate in Computer Science at the University of Chicago, primarily working on semi-automated tools that help people manage their personal cloud storage (ex. Google Drive). I also currently work on human-computer interaction problems for machine learning.';
+export const ABOUT = 'I\'m a recently-graduated PhD candidate in Computer Science. In my thesis, I primarily worked on semi-automated tools that help people manage their personal cloud storage (ex. Google Drive). I\'m currently wrapping up some of my other research on human-computer interaction problems for machine learning.';
 
 export const INTERESTS = 'If you want to start a conversation, try these: ';
 
 export const NEWS = [
+  'I successfully defended my PhD! Many thanks to my advisers and my committee for their support on this milestone',
   'My dissertation defense is scheduled for April 27th--an exciting end to a long journey',
   'Our paper on instructions for annotator rationales was accepted to NAACL 2022! Congratulations to Jamar Sullivan on his first-ever first-author paper',
   'I presented our paper on KondoCloud, a tool for enhanced file management recommendations, at UIST 2021. Thank you to the conference organizers and attendees for fostering wonderful discussion'
