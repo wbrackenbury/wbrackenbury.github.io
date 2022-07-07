@@ -4,6 +4,7 @@ export const ABOUT = 'I\'m a recently-graduated PhD candidate in Computer Scienc
 export const INTERESTS = 'If you want to start a conversation, try these: ';
 
 export const NEWS = [
+
   'I successfully defended my PhD! Many thanks to my advisers and my committee for their support on this milestone',
   'My dissertation defense is scheduled for April 27th--an exciting end to a long journey',
   'Our paper on instructions for annotator rationales was accepted to NAACL 2022! Congratulations to Jamar Sullivan on his first-ever first-author paper',
