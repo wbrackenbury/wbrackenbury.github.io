@@ -1,33 +1,34 @@
-import React from 'react';
+import React from "react";
 
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const links = [
-  {name: 'ABOUT', href: '#/about'},
-  {name: 'RESEARCH', href: '#/research'}
+  { name: "ABOUT", href: "#/about" },
+  { name: "RESEARCH", href: "#/research" },
 ];
-const REGULAR_LINK_CLASS = 'internal-link';
+const REGULAR_LINK_CLASS = "internal-link";
 const SELECTED_LINK_CLASS = `${REGULAR_LINK_CLASS} selected-link`;
 
 class LinkMenu extends React.Component {
   render() {
-    const locationSplit = location.href.split('/');
+    // eslint-disable-next-line no-restricted-globals
+    const locationSplit = location.href.split("/");
     const locName = locationSplit[locationSplit.length - 1].toUpperCase();
-    const selectedLink = links.findIndex(link => link.name === locName);
+    const selectedLink = links.findIndex((link) => link.name === locName);
     const linkIndex = selectedLink < 0 ? 0 : selectedLink;
 
-    const {onClick} = this.props;
+    const { onClick } = this.props;
     return (
       <div className="link-menu">
         {links.map((link, index) => (
           <Link
-            className="internal-link"
-            className={
+            className={`internal-link ${
               index === linkIndex ? SELECTED_LINK_CLASS : REGULAR_LINK_CLASS
-            }
+            }`}
             onClick={onClick}
             to={link.href}
-            key={link.name}>
+            key={link.name}
+          >
             {link.name}
           </Link>
         ))}
@@ -36,7 +37,7 @@ class LinkMenu extends React.Component {
   }
 }
 LinkMenu.defaultProps = {
-  onClick: () => {}
+  onClick: () => {},
 };
-LinkMenu.displayName = 'App';
+LinkMenu.displayName = "App";
 export default LinkMenu;
