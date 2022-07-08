@@ -2,7 +2,6 @@
 export const ABOUT =
   "I'm a recently-graduated PhD candidate in Computer Science. In my thesis, I primarily worked on semi-automated tools that help people manage their personal cloud storage (ex. Google Drive). I'm currently wrapping up some of my other research on human-computer interaction problems for machine learning.";
 
-
 export const INTERESTS = "If you want to start a conversation, try these: ";
 
 export const NEWS = [
