@@ -174,7 +174,12 @@ h3 {
   font-size: 24px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: opacity .15s ease;
   z-index: 1;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
 }
 
 .social-links a::after {
@@ -400,8 +405,16 @@ h3 {
   text-decoration: none;
 }
 
-.publication-title:hover {
+a.publication-title {
+  cursor: pointer;
+}
+
+a.publication-title:hover {
   text-decoration: underline;
+}
+
+div.publication-title {
+  cursor: default;
 }
 
 .publication-authors {
