@@ -47,29 +47,41 @@ h3 {
 
 .link-menu {
 
-  background: #3AE6E8;
+  background: #f4f6fa;
+  border-bottom: 1px solid #e2e7ef;
   font-family: Roboto-Light, sans-serif;
   font-size: 24px;
 }
 
 .link-menu .internal-link {
-  color: #0b140c;
+  border-bottom: 2px solid transparent;
+  color: #5c6773;
+  display: inline-block;
   font-size: 20px;
-  padding: 0 10px;
+  padding: 8px 10px;
   text-decoration: none;
+  transition: color .15s ease, border-color .15s ease;
+}
+
+.link-menu .internal-link:hover {
+  color: #0D44A1;
 }
 
 .link-menu .internal-link:visited {
-  color: #0b140c;
+  color: #5c6773;
 }
 
 .link-menu .internal-link.selected-link {
+  border-bottom-color: #0D44A1;
+  color: #0b140c;
   font-weight: 600;
 }
 
 .text-block {
   font-family: Roboto-Light, sans-serif;
   font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;
   width: 100%;
   padding-top: 10px;
 }
@@ -119,11 +131,7 @@ h3 {
 
 /* // LEFT PANEL STYLING */
 .left-panel {
-  background: #0D44A1;
-  background-color: #0D44A1;
-  background-position-x: -700px;
-  background-position-y: -300px;
-  background-size: 1200px 1200px;
+  background: radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.10), transparent 55%), linear-gradient(165deg, #12519f 0%, #0D44A1 45%, #093275 100%);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -135,8 +143,20 @@ h3 {
   position: relative;
   width: 320px;
   border-right-style: solid;
-  border-right-color: black;
+  border-right-color: rgba(0, 0, 0, 0.2);
   border-right-width: thin;
+}
+
+.left-panel h1 {
+  font-size: 32px;
+  margin: 24px 0 6px;
+}
+
+.left-panel h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 22px;
+  opacity: 0.85;
 }
 
 .title {
@@ -361,18 +381,41 @@ h3 {
 .publication-section-headline {
   font-family: Roboto-BoldItalic, sans-serif;
   font-size: 36px;
+  margin-bottom: 10px;
 }
 
 .publication-block {
+  border-left: 3px solid #e7ecf3;
   font-family: Roboto-Light, sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
+  max-width: 760px;
+  padding-left: 16px;
 }
 
 .publication-title {
   color: #20476e;
+  display: inline-block;
   font-family: Roboto-Medium, sans-serif;
   font-size: 18px;
   text-decoration: none;
+}
+
+.publication-title:hover {
+  text-decoration: underline;
+}
+
+.publication-authors {
+  color: #4a4a4a;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.publication-journal {
+  color: #8a8f98;
+  font-size: 13px;
+  letter-spacing: .04em;
+  margin-top: 2px;
+  text-transform: uppercase;
 }
 
 .publication-title:visited {
