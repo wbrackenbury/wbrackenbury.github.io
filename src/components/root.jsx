@@ -16,7 +16,6 @@ export const LINKS = [
 
 // need to be fancy, in order to deal with routing
 function getRoute(location) {
-  console.log(location);
   if (location === "publications") {
     return <ResearchPage />;
   }
@@ -40,7 +39,7 @@ export default function RootApp() {
         <div className="profpic-wrapper">
           <img
             className="profpic"
-            src="../../assets/profile_picture.jpg"
+            src="/assets/profile_picture.jpg"
             alt="me on a boat"
           />
         </div>

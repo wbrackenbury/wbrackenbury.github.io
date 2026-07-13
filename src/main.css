@@ -59,7 +59,7 @@ h3 {
   text-decoration: none;
 }
 
-.link-menu .internal-link:visted {
+.link-menu .internal-link:visited {
   color: #0b140c;
 }
 
@@ -375,6 +375,6 @@ h3 {
   text-decoration: none;
 }
 
-.publication-title:visted {
+.publication-title:visited {
   color: #20476e;
 }

@@ -13,7 +13,7 @@ export const NEWS = [
 
 export const PUBLICATIONS = [
   {
-    link: "../public/assets/summarize_final.pdf",
+    link: "/assets/summarize_final.pdf",
     title:
     "Summarizing Sets of Related ML-Driven Recommendations for Improving File Management in Cloud Storage",
     authors:
@@ -30,7 +30,7 @@ export const PUBLICATIONS = [
   },
 
   {
-    link: "../public/assets/kondocloud_final.pdf",
+    link: "/assets/kondocloud_final.pdf",
     title:
       "KondoCloud: Improving Information Management in Cloud Storage via Recommendations Based on File Similarity",
     authors:
@@ -39,7 +39,7 @@ export const PUBLICATIONS = [
   },
 
   {
-    link: "../public/assets/flock_final.pdf",
+    link: "/assets/flock_final.pdf",
     title:
       "Files of a Feather Flock Together? Measuring and Modeling How Users Perceive File Similarity in Cloud Storage",
     authors:
@@ -48,28 +48,28 @@ export const PUBLICATIONS = [
   },
 
   {
-    link: "../public/assets/chi19-ifttt-cameraready.pdf",
+    link: "/assets/chi19-ifttt-cameraready.pdf",
     title: "How Users Interpret Bugs in Trigger-Action Programming",
     authors:
       "Will Brackenbury, Abhimanyu Deora, Jillian Ritchey, Jason Vallee, Weijia He, Guan Wang, Michael L. Littman, Blase Ur",
     journal: "CHI 2019",
   },
   {
-    link: "../public/assets/hilda18.pdf",
+    link: "/assets/hilda18.pdf",
     title: "Draining the Data Swamp: A Similarity-based Approach",
     authors:
       "Will Brackenbury, Rui Liu, Mainack Mondal, Aaron J. Elmore, Blase Ur, Kyle Chard, Michael J. Franklin",
     journal: "HILDA 2018",
   },
   {
-    link: "../public/assets/p2038-shang.pdf",
+    link: "/assets/p2038-shang.pdf",
     title: "CYADB: A Database that Covers Your Ask",
     authors:
       "Zechao Shang, Will Brackenbury, Aaron J. Elmore, Michael J. Franklin",
     journal: "VLDB (Demo) 2018",
   },
   {
-    link: "../public/assets/p2098-kesslerfaulkner.pdf",
+    link: "/assets/p2098-kesslerfaulkner.pdf",
     title: "k-Regret Queries with Nonlinear Utilities",
     authors:
       "Taylor Kessler Faulkner*, Will Brackenbury*, Ashwin Lall (*co-first authors)",
