@@ -5,7 +5,7 @@ export const ABOUT =
 export const INTERESTS = "If you want to start a conversation, try these: ";
 
 export const NEWS = [
-    "Accepted a job at Vetcove as a software engineer. Thrilled to work on improving the state of veterinary medicine!"
+    "Accepted a job at Vetcove as a software engineer. Thrilled to work on improving the state of veterinary medicine!",
   "Our paper on summarizing sets of related recommendations in cloud storage has been accepted to UIST 2022. Looking forward to traveling to Bend, Oregon!",
   "I successfully defended my PhD! Many thanks to my advisers and my committee for their support on this milestone",
   "My dissertation defense is scheduled for April 27th--an exciting end to a long journey",
