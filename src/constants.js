@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 export const ABOUT =
-  "I'm a recently-graduated PhD candidate in Computer Science. In my thesis, I primarily worked on semi-automated tools that help people manage their personal cloud storage (ex. Google Drive). I'm currently wrapping up some of my other research on human-computer interaction problems for machine learning.";
+    "I'm a software engineer with a PhD in Computer Science. In my thesis, I primarily worked on machine-learning tools that help people manage their personal cloud storage. Now, I'm looking for interesting problems whose solutions have real impact.";
 
 export const INTERESTS = "If you want to start a conversation, try these: ";
 
